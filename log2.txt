@@ -1,0 +1,26 @@
+===================== Validation check for each row =====================
+row 0 -- [1,2,6,4,3,7,9,5,8] -- valid = true
+row 1 -- [8,9,5,6,2,1,4,7,3] -- valid = true
+row 2 -- [3,7,4,9,8,5,1,2,6] -- valid = true
+row 3 -- [4,5,7,1,9,3,8,6,2] -- valid = true
+row 4 -- [9,8,3,2,4,6,5,1,7] -- valid = true
+row 5 -- [6,1,2,5,7,8,3,9,4] -- valid = true
+row 6 -- [2,6,9,3,1,4,7,8,5] -- valid = true
+row 7 -- [5,4,8,7,6,9,2,1,3] -- valid = true
+row 8 -- [7,3,1,8,5,2,6,4,9] -- valid = true
+
+==================== Validation check for each column ===================
+column 0 -- [1, 8, 3, 4, 9, 6, 2, 5, 7] -- valid = true
+column 1 -- [2, 9, 7, 5, 8, 1, 6, 4, 3] -- valid = true
+column 2 -- [6, 5, 4, 7, 3, 2, 9, 8, 1] -- valid = true
+column 3 -- [4, 6, 9, 1, 2, 5, 3, 7, 8] -- valid = true
+column 4 -- [3, 2, 8, 9, 4, 7, 1, 6, 5] -- valid = true
+column 5 -- [7, 1, 5, 3, 6, 8, 4, 9, 2] -- valid = true
+column 6 -- [9, 4, 1, 8, 5, 3, 7, 2, 6] -- valid = true
+column 7 -- [5, 7, 2, 6, 1, 9, 8, 1, 4] -- valid = false
+
+======================== Summary validation check =======================
+Error -- duplicate data found in column!!
+
+============= Summary the final result for validation check =============
+The contents of the file is not a valid solution to a Sudoku puzzle.
