@@ -1,0 +1,16 @@
+===================== Validation check for each row =====================
+row 0 -- [1,2,6,4,3,7,9,5,8] -- valid = true
+row 1 -- [8,9,5,6,2,1,4,7,3] -- valid = true
+row 2 -- [3,7,4,9,8,5,1,2,6] -- valid = true
+row 3 -- [4,5,7,1,9,3,8,6,2] -- valid = true
+row 4 -- [9,8,3,2,4,6,5,1,7] -- valid = true
+row 5 -- [6,1,2,5,7,8,3,9,4] -- valid = true
+[2,6,9,3,5,4,7,8,5] -- Error found in line 6 for reason of duplicate elements!!
+
+==================== Validation check for each column ===================
+
+======================== Summary validation check =======================
+Error -- duplicate data found in row!!
+
+============= Summary the final result for validation check =============
+The contents of the file is not a valid solution to a Sudoku puzzle.
