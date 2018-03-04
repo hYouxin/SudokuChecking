@@ -37,12 +37,12 @@ public class SudokuCheck
 		if(_sudokuCheck.isValidSolutionSudokuPuzzle(FILENAME)) 
 		{
 			System.out.println("\n" + "============= Summary the final result for validation check =============" +
-							   "\n" + "The contents of the file is a valid solution to a Sudoku puzzle.");
+					   "\n" + "The contents of the file is a valid solution to a Sudoku puzzle.");
 		}
 		else
 		{
 			System.out.println("\n" + "============= Summary the final result for validation check =============" +
-					   		   "\n" + "The contents of the file is not a valid solution to a Sudoku puzzle.");
+					   "\n" + "The contents of the file is not a valid solution to a Sudoku puzzle.");
 		}
 	}
 	
@@ -114,7 +114,7 @@ public class SudokuCheck
 			}
 			
 			System.out.println("\n" + "==================== Validation check for each column ===================");
-			//Step 2:
+			//- Step 2:
 			//	If validation checking for each line and store each line into solution[][] successfully,
 			//	then do validation checking for each column in solution[][],
 			//	otherwise, print out error message.
@@ -138,13 +138,13 @@ public class SudokuCheck
 					if(!valid_solution)
 					{
 						System.out.println("\n" + "======================== Summary validation check =======================" +
-								   		   "\n" + "Error -- duplicate data found in column!!");						
+								   "\n" + "Error -- duplicate data found in column!!");						
 					}
 				}
 				else
 				{
 					System.out.println("\n" + "======================== Summary validation check =======================" +
-									   "\n" + "Error -- Too less rows!!");
+							   "\n" + "Error -- Too less rows!!");
 					valid_solution = false;
 				}
 			}
@@ -155,16 +155,16 @@ public class SudokuCheck
 				{
 					case ERROR_TYPE_LENGTH:  
 							System.out.println("Error -- invalidate array length!!");
-			                break;
+			                		break;
 					case ERROR_TYPE_DIGITAL:
 							System.out.println("Error -- invalidate data type!!");
-			                break;
+			                		break;
 					case ERROR_TYPE_DUP:
 							System.out.println("Error -- duplicate data found in row!!");
-			                break;
+			                		break;
 					case ERROR_TOO_MANY_ROWS:
 							System.out.println("Error -- Too many lines in file!!");
-			                break;
+			                		break;
 				}
 			}
 		} 
